@@ -27,5 +27,26 @@ RDEFINE MQCMDS   -
  /* Permit MQPC.AA3 CLASS(MQCMDS   )  RESET 
                                                                      
 Permit MQPC.AA3 CLASS(MQCMDS   )  ID(ADCDA ) ACCESS(ALTER ) 
+
 ```
+
+## ISPF
+
+Two rexx execs are provided to allow you to capture the output from a TSO
+command and insert it into a file.
+
+The command 
+
+ETSO command 
+
+executes command and inserts the output into the bottom of the current file.
+
+
+The command 
+
+tempdsn command 
+
+Allocates a temporary dataset ( userid.temptemp) and then issues the command
+and captures the output.
+
 
