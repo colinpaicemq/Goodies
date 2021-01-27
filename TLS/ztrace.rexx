@@ -32,7 +32,7 @@ SOFTWARE.
  some html tags in it to make it easier to display
  It has no parameters.
 */
-/* rexx */                                                              00010000
+/* rexx */                                                                 
 ADDRESS ISPEXEC
 'ISREDIT MACRO'
 "ISREDIT hex on"
