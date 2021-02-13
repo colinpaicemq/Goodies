@@ -72,9 +72,9 @@ and captures the output.
 
 A suite of rexx execs to process the operlog available with SDSF.  It does the followig
 1.   S1 convert each multi line message into a single like
-1.   S2 contains a list of "boring" message ids.  Which get deleted from the file
+1.   S2 contains a list of "boring" message ids.  These get deleted from the file
 1.   S3 Sorts the list on message id
-1.   S4 Goes through the list and any message ids that have already been processed get excluded.  You can then use ISPF delete all x to remove them.
+1.   S4 Goes through the list and any message ids that have already been processed get excluded.  You can then use ISPF delete all x to remove the duplicates.
 1.   You edit the file to leave only boring messages and run S5.   This creates some rexx code you can use in  S2
 
 It shrank a 9000 line operlog down to 500 lines.   When I used the "boring" rexx - it left 10 messages.
